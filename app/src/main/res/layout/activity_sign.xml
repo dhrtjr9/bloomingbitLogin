@@ -23,6 +23,7 @@
         android:textSize="13dp"/>
 
     <Button
+        android:id="@+id/sendMessageBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="이메일 인증하기(다른화면으로 전달)"/>

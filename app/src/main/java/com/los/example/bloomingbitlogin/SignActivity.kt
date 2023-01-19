@@ -11,6 +11,22 @@ class SignActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign)
 
+        sendMessageBtn.setOnClickListener {
+
+            // 타이핑한 내용을 받아와서 변수에 저장
+
+            val inputMessage = emailIdEdt.text.toString()
+
+            //비행기 티켓 발권
+            val myIntent = Intent(this,MessageActivity::class.java)
+
+            //수하물 첨부
+            myIntent.putExtra("message", inputMessage)
+
+            //비행기 출발
+            startActivity(myIntent)
+        }
+
         returnToMainBtn.setOnClickListener {
 
             val myIntent = Intent(this,MainActivity::class.java)
