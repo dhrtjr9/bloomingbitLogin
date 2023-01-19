@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         //출발지 : this / 도착액티비티 :: class.java
         //실제로는 액티비티 이동이 아니라, 새 핵티비티를 하나 더 만들어서 기존의 액티비티 위에 얹어주는 기능이다.
+        //Intent로 넘어갈때는 밑에서 위로 / finish로 넘어갈때는 위에서 밑으로 화면의 차이가 있다.
         }
 
         //두개의 변수에 들어있는 값 검사. (맞는 아이디/비번)
