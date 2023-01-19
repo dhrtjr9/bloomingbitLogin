@@ -23,8 +23,9 @@ class MainActivity : AppCompatActivity() {
         if (inputId == "admin@test.com" && inputPw == "qwer") {
             
             //둘다 맞나면 -> 관리자 입니다 토스트 팝업
+            val name = "프로덕트 매니저"
 
-            Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "${name} 관리자입니다.", Toast.LENGTH_SHORT).show()
             
         }
         else {

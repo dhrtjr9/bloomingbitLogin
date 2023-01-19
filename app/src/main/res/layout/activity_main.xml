@@ -89,6 +89,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/moveToOtherBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="이메일로 가입하기"
