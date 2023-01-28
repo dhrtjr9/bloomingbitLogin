@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:hint="이메일 주소를 입력하세요."
         android:inputType="textEmailAddress"
-        android:textSize="13dp"/>
+        android:textSize="13dp"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/sendMessageBtn"

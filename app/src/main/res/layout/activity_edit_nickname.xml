@@ -20,7 +20,9 @@
         android:layout_height="wrap_content"
         android:hint="사용할 새 닉네임을 입력하세요."
         android:inputType="textEmailAddress"
-        android:textSize="13dp"/>
+        android:minHeight="48dp"
+        android:textSize="13dp"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/okBtn"
