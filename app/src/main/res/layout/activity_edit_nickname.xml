@@ -15,6 +15,7 @@
         android:text="새 닉네임"/>
 
     <EditText
+        android:id="@+id/newNicknameEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="사용할 새 닉네임을 입력하세요."
